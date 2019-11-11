@@ -1,0 +1,1 @@
+web: gunicorn bridgeproject.wsgi --log-file -

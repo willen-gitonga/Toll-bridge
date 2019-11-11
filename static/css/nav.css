@@ -1,0 +1,20 @@
+.megamenu {
+    position: static;
+  }
+  
+  .megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+  }
+    
+/* Hover rule */
+.dropdown-menu { 
+    display: none;
+
+    position: absolute;
+    z-index: 1;
+}
+.megamenu:hover .dropdown-menu {
+    display: block;
+}
